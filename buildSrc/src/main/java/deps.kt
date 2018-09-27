@@ -43,6 +43,7 @@ object Vers {
     val junit = "4.12" // https://github.com/junit-team/junit4/releases
     val googleTruth = "0.39" // https://github.com/google/truth/releases
     val androidTestRunnerClass = "android.support.test.runner.AndroidJUnitRunner"
+    val anko = "0.10.6"
     // https://developer.android.com/reference/android/support/test/runner/AndroidJUnitRunner.html
 }
 
