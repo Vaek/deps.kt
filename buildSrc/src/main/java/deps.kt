@@ -7,21 +7,21 @@
  */
 object Vers {
     val kotlinMajor = 1
-    val kotlinMinor = 2
-    val kotlinPatch = 31
+    val kotlinMinor = 3
+    val kotlinPatch = 11
     val kotlin = "$kotlinMajor.$kotlinMinor.$kotlinPatch" // https://github.com/JetBrains/kotlin/releases
     val kotlinxCoroutines = "0.22.5" // https://github.com/Kotlin/kotlinx.coroutines/releases
     val androidGradlePlugin = "3.2.0-alpha02" // https://google.github.io/android-gradle-dsl/
     val androidMavenGradlePlugin = "2.0" // https://github.com/dcendents/android-maven-gradle-plugin/releases
-    val androidCompileSdk = 27 // https://developer.android.com/about/dashboards/index.html
-    val androidMinSdk = 23
-    val androidTargetSdk = 27
+    val androidCompileSdk = 28 // https://developer.android.com/about/dashboards/index.html
+    val androidMinSdk = 21
+    val androidTargetSdk = 28
     @Deprecated("Optional with android gradle plugin 3.0.0 or higher")
     val androidBuildTools = "27.0.3" // https://developer.android.com/studio/releases/build-tools.html
-    val androidSupport = "27.1.0" // https://developer.android.com/topic/libraries/support-library/revisions.html
-    val androidSupportConstraint = "1.0.2" // https://developer.android.com/training/constraint-layout
+    val androidSupport = "28.0.0" // https://developer.android.com/topic/libraries/support-library/revisions.html
+    val androidSupportConstraint = "1.1.3" // https://developer.android.com/training/constraint-layout
     val androidArchLifecycle = "1.1.1" // https://developer.android.com/topic/libraries/architecture/adding-components.html
-    val androidArchPersistenceRoom = "1.0.0"
+    val androidArchPersistenceRoom = "1.1.1"
     val androidSupportTest = "1.0.1" // https://developer.android.com/topic/libraries/testing-support-library/release-notes.html
     val androidEspresso = "3.0.1"
     val androidCommons = "0.0.23" // https://github.com/elpassion/android-commons/releases
